@@ -91,3 +91,38 @@ footer>p {
 
 
 /* Part 2 - Responsive flexbox grid */
+.static-child {
+    position: relative;
+  
+
+    margin-top: 100px;
+    margin-left: -80px;
+  }
+  #y-id {
+    position: relative;
+    top: 100px;
+    left: -80px;
+
+  }
+  #absolute-parent {
+    position: relative;
+
+  }
+  
+  #y-id {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+
+  }
+  #y-id {
+    position: fixed;
+    top: 100px;
+    left: 10px;
+ 
+  }
+  #y-id {
+    position: sticky;
+    bottom: 0px;
+    left: 0px;
+  }
